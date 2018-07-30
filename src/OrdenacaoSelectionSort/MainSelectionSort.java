@@ -10,11 +10,7 @@ public class MainSelectionSort {
 		
 		int[] vetor   	= 	new int[10];
 
-		
 		p.aleatorio(vetor);
-//		p.crescente(crescenteVar);
-//		p.decrescente(decrescenteVar);
-		
 		
 		for (int i = 0; i < vetor.length; i++ ){
 			if (i == 0){
@@ -28,9 +24,8 @@ public class MainSelectionSort {
 		}
 		
 		SelectionSort algoritmo = new SelectionSort();
-		SelectionSort algoritmo2 = new SelectionSort();
+		//variavel que armazena o numero de interações do algoritmo SelectionSort
 		int c = algoritmo.metodo(vetor);
-		
 		
 		for (int i = 0; i < vetor.length; i++ ){
 			if (i == 0){
@@ -41,8 +36,5 @@ public class MainSelectionSort {
 				System.out.println(c);
 			}
 		}
-		
-		
 	}
-
 }
