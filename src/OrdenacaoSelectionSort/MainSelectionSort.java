@@ -5,7 +5,7 @@ public class MainSelectionSort {
 	public static void main(String[] args) {
 		
 		Popula p = new Popula();
-		//Variavel que define o numero de posicoes do vetor, que eu defini 10
+	//Variavel que define o numero de posicoes do vetor, que eu defini 10
 		int numPosVetor = 10;
 
 //////////////////////////////////////////////// Vetor com valor CRESCENTE ///////////////////////////////////////////////////////////////////////
