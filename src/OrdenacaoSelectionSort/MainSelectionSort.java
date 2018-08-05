@@ -33,7 +33,7 @@ public class MainSelectionSort {
 		SelectionSort algoritmo = new SelectionSort();
 		
 		//variavel que armazena o numero de interacoes do algoritmo SelectionSort
-		int c = algoritmo.metodo(vetorCrescente);
+		int c = algoritmo.recebeVetor(vetorCrescente);
 		
 		for (int i = 0; i < vetorCrescente.length; i++ ){
 			if (i == 0){
@@ -72,7 +72,7 @@ public class MainSelectionSort {
 		
 		
 		//variavel que armazena o numero de interacoes do algoritmo SelectionSort
-		int d = algoritmo.metodo(vetorDecrescente);
+		int d = algoritmo.recebeVetor(vetorDecrescente);
 		
 		for (int i = 0; i < vetorDecrescente.length; i++ ){
 			if (i == 0){
@@ -111,7 +111,7 @@ public class MainSelectionSort {
 
 		// variavel que armazena o numero de interacoes do algoritmo
 		// SelectionSort
-		int e = algoritmo.metodo(vetorAleatorio);
+		int e = algoritmo.recebeVetor(vetorAleatorio);
 
 		for (int i = 0; i < vetorAleatorio.length; i++) {
 			if (i == 0) {
