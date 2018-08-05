@@ -2,7 +2,7 @@ package OrdenacaoSelectionSort;
 
 public class SelectionSort {
 	
-	public int metodo(int[] vetor){
+	public int recebeVetor(int[] vetor){
 		int min, i, j, aux;
 		int tamVetor = vetor.length;
 		int contador = 0;
